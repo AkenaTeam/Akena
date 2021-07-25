@@ -1,1 +1,1 @@
-# Akena
+# Akena Team
