@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "These functions deal with verification of Merkle Trees proofs. The proofs can be generated using the JavaScript library https://github.com/miguelmota/merkletreejs[merkletreejs]. Note: the hashing algorithm should be keccak256 and pair sorting should be enabled. See `test/utils/cryptography/MerkleProof.test.js` for some examples.",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"github/OpenZeppelin/openzeppelin-contracts/contracts/utils/cryptography/MerkleProof.sol": "MerkleProof"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"github/OpenZeppelin/openzeppelin-contracts/contracts/utils/cryptography/MerkleProof.sol": {
+			"keccak256": "0x86c1bbdc6813c021e138da527c44d2615931b0e5c7fa2f58369846ed288324a8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://aeb8fb8169a5862d4d870c655a5f84b0839f19ff8704d84cd1bea37640e721ac",
+				"dweb:/ipfs/QmcBTMVMAigtB3X2mru7wctzYv8aLatFXEUdFLDZDfQtcB"
+			]
+		}
+	},
+	"version": 1
+}

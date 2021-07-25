@@ -1,0 +1,54 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Collection of functions related to array types.",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"github/OpenZeppelin/openzeppelin-contracts/contracts/utils/Arrays.sol": "Arrays"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"github/OpenZeppelin/openzeppelin-contracts/contracts/utils/Arrays.sol": {
+			"keccak256": "0x4752e3dddc1de93cf04f7231c79520d5ef02e45679baeecbd79ff19fdfcc6114",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2c6a0d3d19454e3a7b3bfb7881e6a0cbf36dbaad2ac241a290bdf1d61328efc2",
+				"dweb:/ipfs/QmRezLqVEJNSt3GFnu3hxUB6B7xC7RNBUyDJAtSb1xZcWu"
+			]
+		},
+		"github/OpenZeppelin/openzeppelin-contracts/contracts/utils/math/Math.sol": {
+			"keccak256": "0x49ebdac5d515aebb95168564158940b79d7d5d12fbfe59cec546a00d57fee64a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c02d3ba19711bffdb7aa33ff3107cfd17902c82640837ef0de2e327515f4f70d",
+				"dweb:/ipfs/QmdR7JUXpD5X7eXkc24bRtNj3e7ahs8RC8s25cu7X14GHU"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Signature verification helper: Provide a single mechanism to verify both private-key (EOA) ECDSA signature and ERC1271 contract sigantures. Using this instead of ECDSA.recover in your contract will make them compatible with smart contract wallets such as Argent and Gnosis. Note: unlike ECDSA signatures, contract signature's are revocable, and the outcome of this function can thus change through time. It could return true at block N and false at block N+1 (or the opposite). _Available since v4.1._",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"github/OpenZeppelin/openzeppelin-contracts/contracts/utils/cryptography/SignatureChecker.sol": "SignatureChecker"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"github/OpenZeppelin/openzeppelin-contracts/contracts/interfaces/IERC1271.sol": {
+			"keccak256": "0x14351164423eade7f2dbac5ca9ab8aeded8694f3b2d7a9e0114a2b3b6558198d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7588d5d5a23ccdccfb39eb015939560bdc26fd11efb7e5ff8af23f5a3ce8b003",
+				"dweb:/ipfs/QmRuohtRJYDoFGazYwbcbz557HzmQDWuW9phW6Cm8tQhwN"
+			]
+		},
+		"github/OpenZeppelin/openzeppelin-contracts/contracts/utils/Address.sol": {
+			"keccak256": "0x3336baae5cf23e94274d75336e2d412193be508504aee185e61dc7d58cd05c8a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://39a05eec7083dfa0cc7e0cbfe6cd1bd085a340af1ede93fdff3ad047c5fb3d8e",
+				"dweb:/ipfs/QmVApz5fCUq2QC8gKTsNNdCmcedJ3ETHp68zR5N3WUKS4r"
+			]
+		},
+		"github/OpenZeppelin/openzeppelin-contracts/contracts/utils/cryptography/ECDSA.sol": {
+			"keccak256": "0x9f91b5b7d47b8d16648934b20e61eb37b481f298ba472fd8d22e9252eda6165e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://34a41f027547b54b5ae3dad6d7cc9a705950da847b343068e275e0689082021c",
+				"dweb:/ipfs/QmX2EWc6ZQtfKMgYwqCip3dYLCd5gtj1CR5gn8ZjCWU7XM"
+			]
+		},
+		"github/OpenZeppelin/openzeppelin-contracts/contracts/utils/cryptography/SignatureChecker.sol": {
+			"keccak256": "0xaa5e46b1795a6b6de776566b5051eda3449c1be0b9404f5f7be3822faf907030",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://75efd87a04c667a391b931f9676554b2a02676baf275e7b54f20583ecc576c8c",
+				"dweb:/ipfs/QmRJRoZKJj5e9d6jqedVLREDKxfWBEsdZDV4dgi9b7r97S"
+			]
+		}
+	},
+	"version": 1
+}

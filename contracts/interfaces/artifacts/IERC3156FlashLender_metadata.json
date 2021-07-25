@@ -1,0 +1,153 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "flashFee",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "contract IERC3156FlashBorrower",
+						"name": "receiver",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "flashLoan",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					}
+				],
+				"name": "maxFlashLoan",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Interface of the ERC3156 FlashLender, as defined in https://eips.ethereum.org/EIPS/eip-3156[ERC-3156].",
+			"kind": "dev",
+			"methods": {
+				"flashFee(address,uint256)": {
+					"details": "The fee to be charged for a given loan.",
+					"params": {
+						"amount": "The amount of tokens lent.",
+						"token": "The loan currency."
+					},
+					"returns": {
+						"_0": "The amount of `token` to be charged for the loan, on top of the returned principal."
+					}
+				},
+				"flashLoan(address,address,uint256,bytes)": {
+					"details": "Initiate a flash loan.",
+					"params": {
+						"amount": "The amount of tokens lent.",
+						"data": "Arbitrary data structure, intended to contain user-defined parameters.",
+						"receiver": "The receiver of the tokens in the loan, and the receiver of the callback.",
+						"token": "The loan currency."
+					}
+				},
+				"maxFlashLoan(address)": {
+					"details": "The amount of currency available to be lended.",
+					"params": {
+						"token": "The loan currency."
+					},
+					"returns": {
+						"_0": "The amount of `token` that can be borrowed."
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"github/OpenZeppelin/openzeppelin-contracts/contracts/interfaces/IERC3156.sol": "IERC3156FlashLender"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"github/OpenZeppelin/openzeppelin-contracts/contracts/interfaces/IERC3156.sol": {
+			"keccak256": "0x3d80d2fbe25b07095941e042371a14cab6120dcad2a3edc73d2342ed121f1fe7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://038be113e465706866115d8c4b31d781626ad2dd087aabbe7138cfb3c3105435",
+				"dweb:/ipfs/Qmf7NMUHktbDr89tdwwmWHdSVRU2mm3ecFqrxFN1BNZssm"
+			]
+		}
+	},
+	"version": 1
+}
