@@ -1,0 +1,11 @@
+{
+    "name": "AKENA",
+    "website": "http://akena.org",
+    "description": "AKENA aims to build a fair decentralized  governance mechanisms for users around the world",
+    "explorer": "https://www.bscscan.com/token/0xb88ef60f32e062f4b6537063d2b40b4272fe76c6",
+    "type": "BEP20",
+    "symbol": "AKENA",
+    "decimals": 8,
+    "status": "active",
+    "id": "0xb88ef60f32e062f4b6537063d2b40b4272fe76c6"
+}
