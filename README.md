@@ -13,6 +13,10 @@
 
 ## How to get AKENA
 
-coming soon!
+[PancakeSwap](https://pancakeswap.info/pool/0x32b2a05f22ef0088ca7831272a780e8ecda3288d) for BEP20
+
+[JustSwap](https://justswap.network/?lang=en-US#/scan/detail/trx/TMsUFY8gZbWCY6rwMaow9YNBgcdWZte12Y) for TRC20 
+
+[365 exchange](https://365.stream/r/turDsz) coming soon!
 
 
