@@ -20,3 +20,10 @@
 [365 exchange](https://365.stream/r/turDsz) coming soon!
 
 
+## About AKENA
+
+[AKENA.IO](https://akena.io)
+
+[AKENA.ORG](https://akena.org)
+
+[AKENASCAN.COM](https://akenascan.com)
